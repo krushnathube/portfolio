@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->
+<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
+<!--[if !IE]><!-->
+<html lang="en">
+    <!--<![endif]-->
+    <head>
+        <title>Krushna Thube | Full Stack (MERN) Developer | Portfolio</title>
+        <!-- Meta -->
+        <meta charset="utf-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <meta name="description" content="A backend developer building delightfully awesome things. You can find out more about me, have a look at some things I&#039;ve built"/>
+        <meta name="keywords" content="Krushna Thube, Software Developer, Programmer Portfolio, Developer Portfolio, Full Stack Web Developer, API Developer"/>
+        <meta name="revised" content="19/06/2020"/>
+        <meta name="google-site-verification" content="C8NcSfhcmMNnxGkXOLYjQV-qfvgD_QeGk4an9WSzZzw" />
+        <meta name="author" content="Krushna Thube"/>
+        <meta property="og:title" content="Portfolio | Krushna Thube - Node.js Developer &amp; Software Developer" />
+        <meta property="og:description" content="A Full Stack Web Developer building delightfully awesome things. You can find out more about me, have a look at some things I&#039;ve built" />
+        <meta property="og:url" content="https://krushnathube.github.io/portfolio/" />
+        <meta property="og:site_name" content="Portfolio | Krushna Thube - Full Stack Web Developer" />
+        <meta property="og:type" content="website" />
+        <!-- end Meta -->
+        <link rel="shortcut icon" href="portfolio/favicon.ico">
+        <!-- small devices icons -->
+        <link rel="apple-touch-icon" sizes="120x120" href="portfolio/apple-touch-icon.png">
+        <link rel="apple-touch-startup-image" href="portfolio/krushna-profile.png">
+        <link rel="icon" type="image/png" href="portfolio/favicon-32x32.png" sizes="32x32">
+        <link rel="icon" type="image/png" href="portfolio/favicon-16x16.png" sizes="16x16">
+        <link rel="manifest" href="manifest.json">
+        <link rel="mask-icon" href="portfolio/safari-pinned-tab.svg" color="#5bbad5">
+        <meta name="msapplication-TileColor" content="#2b5797">
+        <meta name="theme-color" content="#ffffff">
+        <!-- XXXX -->
+        <link href="https://fonts.googleapis.com/css?family=Lato:300,400,300italic,400italic" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+        <!-- Global CSS -->
+        <link rel="stylesheet" href="portfolio/assets/plugins/bootstrap/css/bootstrap.min.css">
+        <!-- Plugins CSS -->
+        <link rel="stylesheet" href="portfolio/assets/plugins/font-awesome/css/font-awesome.css">
+        <!-- github calendar css -->
+        <link rel="stylesheet" href="portfolio/assets/plugins/github-calendar/dist/github-calendar.css" />
+        <!-- github acitivity css -->
+        <link rel="stylesheet" href="portfolio/assets/plugins/github-activity/src/github-activity.css">
+        <link rel="stylesheet" href="ajax/libs/octicons/2-0-2/octicons.min.css">
+        <!-- Theme CSS -->
+        <link id="theme-style" rel="stylesheet" href="portfolio/assets/css/styles.min.css">
+        <!-- Github Calendar -->
+        <script src="ionicabizau/github-calendar/gh-pages/dist/github-calendar.min.js"></script>
+        <!-- xxx  -->
+        <!-- Google analytics Tracking Code -->
+        <script>
+            ( function( i, s, o, g, r, a, m ) {
+                i['GoogleAnalyticsObject'] = r;
+                i[r] = i[r] || function() {
+                    ( i[r].q = i[r].q || [ ] ).push( arguments )
+                }, i[r].l = 1 * new Date();
+                a = s.createElement( o ),
+                        m = s.getElementsByTagName( o )[0];
+                a.async = 1;
+                a.src = g;
+                m.parentNode.insertBefore( a, m )
+            } )( window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga' );
+            ga( 'create', 'UA-96760282-1', 'auto' );
+            ga( 'send', 'pageview' );
+        </script>
+        <!-- For scrolling animation -->
+        <script src="ajax/libs/jquery/1-11-3/jquery.min.js"></script>
+        <script type="text/javascript">
+            $( document ).ready( function() {
+                $( window ).scroll( function() {
+                    if( $( this ).scrollTop() > 300 )
+                    {
+                        $( '#scroll' ).fadeIn();
+                    }
+                    else
+                    {
+                        $( '#scroll' ).fadeOut();
+                    }
+                } );
+                $( '#scroll' ).click( function() {
+                    $( "html, body" ).animate( { scrollTop: 0 }, 600 );
+                    return false;
+                } );
+            } );
+        </script>
+        <!---->
+        <script type="application/ld+json">
+            {
+            "@context": "http://schema.org/",
+            "@type": "WebSite",
+            "name": "Krushna Thube Portfolio",
+            "alternateName": "Back-End Web & Software Developer",
+            "url": "https://krushnathube.github.io/portfolio/",
+            "potentialAction": {
+            "@type": "SearchAction",
+            "target": "krushna+thube+portfolio{search_term_string}",
+            "query-input": "required name=search_term_string"
+            }
+            }
+        </script>
+    </head>
+    <body>
+        <!-- BackToTop Button -->
+        <a href="javascript:void(0);" id="scroll" title="Scroll to Top" style="display: none;">Top<span></span></a>
+        <!-- ******HEADER****** -->
+        <header class="header">
+            <div class="container">
+                <img class="profile-image img-responsive pull-left" src="portfolio/assets/images/krushna-profile.png" alt="Portfolio | Krushna Thube - Full Stack Developer" title="Portfolio | Krushna Thube - Full Stack Developer" height="200" width="200" style="box-shadow: 0px 0px 10px #888; border-radius: 100px 100px 100px 100px;"/>
+                <div class="profile-content pull-left">
+                    <h1 class="name">Krushna Thube</h1> <h5>(AWS Certified Developer Associate)</h5>
+                    <h2 class="desc">Backend Engineer, Node.JS, AWS, Serverless</h2>
+                    <ul class="social list-inline">
+                        <li><a href="https://stackoverflow.com/users/5137629/krushna-thube" target="_blank" title="View StackOverflow profile of Krushna Thube"><i class="fa fa-stack-overflow"></i></a></li>
+                        <li><a href="https://github.com/krushnathube/" target="_blank" title="Github account of Krushna Thube"><i class="fa fa-github"></i></a></li>
+                        <li><a href="https://gist.github.com/krushnathube/" target="_blank" title="Gist account of Krushna Thube"><i class="fa fa-code"></i></a></li>
+                        <li><a href="https://www.linkedin.com/in/krushna-thube/" target="_blank" title="Linkedin Profile of Krushna Thube"><i class="fa fa-linkedin"></i></a></li>
+                    </ul>
+                </div>
+                <!--//profile-->
+                <div class="pull-right">
+                    <a class="btn btn-cta-primary" href="mailto:krushnathube19@gmail.com" target="_blank" title="Mail to krushnathube19@gmail.com"><i class="fa fa-paper-plane"></i> Mail</a>&nbsp;
+                    <!-- <a class="btn btn-info" href="https://join.skype.com/invite/pHaXWIEIia2r" title="Contact Krushna Thube using Skype"><i class="fa fa-skype"></i> CHAT</a> -->
+                </div>
+            </div>
+            <!--//container-->
+        </header>
+        <!--//header-->
+        <div class="container sections-wrapper">
+            <div class="row">
+                <div class="primary col-md-8 col-sm-12 col-xs-12">
+                    <section class="about section">
+                        <div class="section-inner">
+                            <h2 class="heading">About Me</h2>
+                            <div class="content">
+                                <p>
+                                    <b>Languages:</b>&nbsp;Javascript, Typescript, HTML, CSS.<br />
+                                    <b>Frameworks:</b>&nbsp; Node JS, React, Angular, Ionic 4<br/>
+                                    <b>Databases:</b>&nbsp; MongoDB, DynamoDB, MySQL, PostgreSQL.<br/>
+                                    <b>Tools:</b>&nbsp; GitHub, JIRA, Robo 3T, MySQL Workbench, MongoDB compass.<br/>
+                                    <b>AWS Services:</b>&nbsp; Serverless, API Gateway, Lambda, Cloudwatch, S3 Service, DynamoDB <br/>
+                                    <b>Editor Journey:</b>&nbsp; VS Code, Sublime, Atom, Notepad++<br/>
+                                    <b>Operating System:</b>&nbsp; Mac, Ubuntu, Windows, Linux<br/>
+                                </p>
+                                <p>
+                                    <b>Experience: </b>
+                                </p>
+                                <p>
+                                    <b>Total Exp. - </b> 10+ Years<br>
+                                    <b>Current Employer - </b>Senior Software Engineer, Phase 3, Hinjawadi Rajiv Gandhi Infotech Park, Hinjawadi, Pune, Maharashtra 411057 <a href="https://hexaware.com/" title="Senior Software Engineer"> [https://hexaware.com]</a><br>
+                                </p>
+                            </div>
+                            <!--//content-->
+                        </div>
+                        <!--//section-inner-->
+                    </section>
+                    <!--//section-->
+                    <section class="experience section">
+                        <div class="section-inner">
+                            <h2 class="heading">Work Experience</h2>
+                            <div class="content">
+                                <div class="item">
+                                <h3 class="title">Senior Software Engineer - <span class="place"><a href="https://www.hexaware.com/">Hexaware Technologies.</a></span> <span class="year">(Auguest 2021 - Present)</span></h3>
+                                <p>Node JS Developer with 6.5+ Years of experience in the IT industry comprising Node JS Developer role, to understand requirements.</p>
+                                <p>Certified AWS Developer Associate </p>
+                                <p>Best practices to deliver high quality code ,writing unit test cases using Mocha, Chai and Sinon JS for robustness including edge cases, usability and scalability .</p>
+                                <p>Familiarity using Scrum/Agile development methodologies like JIRA , Slack, WIKI .</p>
+                                </div>
+                            </div>
+                            <div class="content">
+                                <div class="item">
+                                <h3 class="title">Senior Software Engineer - <span class="place"><a href="https://brtchip.com/">Bridgetek Pte. Ltd.</a></span> <span class="year">(January 2020 - Auguest 2021)</span></h3>
+                                <p>Node JS Developer with 6.5+ Years of experience in the IT industry comprising Node JS Developer role, to understand requirements.</p>
+                                <p>Certified AWS Developer Associate </p>
+                                <p>Best practices to deliver high quality code ,writing unit test cases using Mocha, Chai and Sinon JS for robustness including edge cases, usability and scalability .</p>
+                                <p>Familiarity using Scrum/Agile development methodologies like JIRA , Slack, WIKI .</p>
+                                </div>
+                            </div>
+
+                            <div class="content">
+                                <div class="item">
+                                <h3 class="title">Software Engineer - <span class="place"><a href="https://www.mobiquity.com/">Mobiquity Inc.</a></span> <span class="year">(March 2018 - December 2019)</span></h3>
+                                <p>Strong knowledge of JavaScript, Node JS, Express.js, MongoDB, Docker, AWS Services and Typescript with object oriented programming , prototypes , creating reusable functions , adding asynchronous methods and closures.</p>
+                                <p>Serverless architecture apps with AWS (APIGateway, Lambda, S3, DynamoDB, Cloudwatch, Cognito).</p>
+                                <p>Good knowledge of version control systems like GitHub ,GitLab .</p>
+                                </div>
+                            </div>
+
+                            <div class="content">
+                                <div class="item">
+                                <h3 class="title">System Analyst - <span class="place"><a href="https://www.nihilent.com/">Nihilent Ltd..</a></span> <span class="year">(February 2017 - March 2018)</span></h3>
+                                <p>Strong knowledge of JavaScript, Node JS, Express.js, MongoDB, Docker, AWS Services and Typescript with object oriented programming , prototypes , creating reusable functions , adding asynchronous methods and closures.</p>
+                                <p>Serverless architecture apps with AWS (APIGateway, Lambda, S3, DynamoDB, Cloudwatch, Cognito).</p>
+                                <p>Good knowledge of version control systems like GitHub ,GitLab .</p>
+                                </div>
+                            </div>
+                            <div class="content">
+                                <div class="item">
+                                <h3 class="title">Software Developer - <span class="place"><a href="https://tasind.com/">Tas India Pvt Ltd</a></span> <span class="year">(March 2015 - February 2017)</span></h3>
+                                <p>Strong knowledge of JavaScript, Node JS, Express.js, MongoDB, Docker, AWS Services and Typescript with object oriented programming , prototypes , creating reusable functions , adding asynchronous methods and closures.</p>
+                                <p>Serverless architecture apps with AWS (APIGateway, Lambda, S3, DynamoDB, Cloudwatch, Cognito).</p>
+                                <p>Good knowledge of version control systems like GitHub ,GitLab .</p>
+                                </div>
+                            </div>
+                            <!--//content-->
+                        </div>
+                        <!--//section-inner-->
+                    </section>
+                    <!--//section-->
+                    <section class="latest section">
+                        <div class="section-inner">
+                            <h2 class="heading">Latest Projects</h2>
+                            <div class="content">
+
+                                <div class="item">
+                                    <h4><a href="https://www.otsuka.com/en/" target="_blank">Otsuka - Sr. Node JS Developer</a><span class="year">(Auguest 2021 - Present)</span></h4>
+                                    <p class="summary">Worked on JWT Authentication part, Server side logic in node js, docker, mongoDB mongoose Schema. &nbsp; Get,post,put and delete API requests, express middleware. &nbsp; Code reviews to the Git merge requests, report issues in the MR, suggest improvements and optimized solutions. <br><b>Technology Stack</b> - Javascript, Node JS, mongoDB, Express, Docker, LDAP, Github, Jira</p>
+                                    <p><a class="more-link" href="https://www.otsuka.com/en/" target="_blank"><i class="fa fa-external-link"></i> Find out more</a></p>
+                                </div>
+                                <div class="item">
+                                    <h4><a href="https://brtsys.com/panl-room-manager/" target="_blank">PanL Room Manager - Sr. Node JS Developer</a><span class="year">(Auguest 2021 - Present)</span></h4>
+                                    <p class="summary">Worked on JWT Authentication part, Server side logic in node js, docker, postgreSQL. &nbsp; Get,post,put and delete API requests, express middleware. &nbsp; Code reviews to the Git merge requests, report issues in the MR, suggest improvements and optimized solutions. <br><b>Technology Stack</b> - Javascript, Node JS, postgreSQL, Express, Docker, LDAP, Github, Jira</p>
+                                    <p><a class="more-link" href="https://brtsys.com/panl-room-manager/" target="_blank"><i class="fa fa-external-link"></i> Find out more</a></p>
+                                </div>
+
+                                <div class="item">
+                                    <h4><a href="https://reinvent.awsevents.com/" target="_blank">Amazon Re:Invent- Node Js developer </a><span class="year">(Mar 2018 - Dec 2019)</span></h4>
+                                    <p class="summary">Serverless architecture apps with AWS (APIGateway, Lambda, S3, DynamoDB, Cloudwatch, Cognito). Familiarity using Scrum/Agile development methodologies. Preprocess Lambdas(based on s3 events updated the entry into db), test cases using Mocha, Chai and Sinon JS. <br><b>Technology Stack</b> - Node JS, DynamoDB, Typescript, Javascript, GitHub, AWS Lambda, API Gateway, S3, Cloudwatch</p>
+                                    <p><a class="more-link" href="https://reinvent.awsevents.com/" target="_blank"><i class="fa fa-external-link"></i> Find out more</a></p>
+                                </div>
+                                <div class="item">
+                                    <h4><a href="https://tasind.com/" target="_blank"> TASM2M Solar/Wind - Node Js developer</a><span class="year">(Mar 2015 - Feb 2017)</span></h4>
+                                    <p class="summary">Worked on the prettier and Eslint pre-commit hooks to format code on every commit. Worked on setting up test case setup using Mocha, chai and sinon for stubbing. Worked on deploying Lambda functions on API gateway, Worked with serverless framework. <br><b>Technology Stack</b> - Node JS, Serverless, Typescript, Javascript, Unit Tests Using Mocha, Serverless Framework, AWS Lambda, API Gateway, GitLab</p>
+                                    <p><a class="more-link" href="https://tasind.com/" target="_blank"><i class="fa fa-external-link"></i> Find out more</a></p>
+                                </div>
+                                <!--//item-->
+                            </div>
+                            <!--//content-->
+                        </div>
+                        <!--//section-inner-->
+                    </section>
+                    <!--//section-->
+                    <section class="projects section">
+                        <div class="section-inner">
+                            <h2 class="heading">Other Projects</h2>
+                            <div class="content">
+                                <!-- <div class="item">
+                                    <h2 class="title"><a href="https://github.com/krushnathube/Admin_Employee_POC" target="_blank">Admin Employee Web Application</a></h2>
+                                    <p class="summary">Created web application with Login and Registration module used JWT Authentication, Admin is able to perform CRUD operation on employee, Employee can view and edit it's own details.<br><b>Technology Stack</b> - React.js, Node JS, Express, Mongodb, mongoose.</p>
+                                    <p><a class="more-link" href="https://github.com/krushnathube/Admin_Employee_POC" target="_blank"><i class="fa fa-external-link"></i> Find out more</a></p>
+                                </div>
+                                
+                                <div class="item">
+                                    <h2 class="title"><a href="https://krushnathube.github.io/Crash-Lander-Game-Javascript/" target="_blank">Crash Lander Game</a></h2>
+                                    <p class="summary">I have created a simple Crash Lander game using HTML, CSS and Javascript.<br><b>Technology Stack</b> - HTML, CSS, Javascript</p>
+                                    <p><a class="more-link" href="https://github.com/krushnathube/Crash-Lander-Game-Javascript" target="_blank"><i class="fa fa-external-link"></i> Find out more</a></p>
+                                </div>
+                                <div class="item">
+                                    <h2 class="title"><a href="https://github.com/krushnathube/Online-Exam-App-Angular" target="_blank">Online Exam App</a></h2>
+                                    <p class="summary">I have Created Angular app with authentication to publish test you have to select difficulty level and questions file of .xslx extension.
+                                        Once the test is uploaded Interviewer can give test and then the result will be displayed to Evaluators.<br><b>Technology Stack</b> - Angular, Firebase, HTML, CSS</p>
+                                    <p><a class="more-link" href="https://github.com/krushnathube/Online-Exam-App-Angular" target="_blank"><i class="fa fa-external-link"></i> Find out more</a></p>
+                                </div>
+                                <div class="item">
+                                    <h3 class="title"><a href="https://github.com/krushnathube/Product-order-with-authantication-nodejs">Product Order With Authentication API's</a>
+                                    </h3>
+                                    <p class="summary">Created POC for Complete Shopping API's Collection CRUD Operations with MongoDB for Product and Order.
+                                        Also Implemented JWT Authentication Token to restrict unothorize access and you will get data only when token is valid.<br><b>Technology Stack - </b> Node Js, MongoDB Altas, Bcrypt Algo, JWT Token, MVC Architecture</p>
+                                    <p><a class="more-link" href="https://github.com/krushnathube/Product-order-with-authantication-nodejs" target="_blank"><i class="fa fa-external-link"></i> Find out more</a></p>
+                                </div> -->
+                                <!--//item-->
+                                <a class="btn btn-cta-secondary" href="https://www.linkedin.com/in/krushna-thube/">More on Linkedin <i class="fa fa-chevron-right"></i></a>
+                            </div>
+                            <!--//content-->
+                        </div>
+                        <!--//section-inner-->
+                    </section>
+                    <!--//section-->
+                </div>
+                <!--//primary-->
+                <div class="secondary col-md-4 col-sm-12 col-xs-12">
+                    <aside class="info aside section">
+                        <div class="section-inner">
+                            <h2 class="heading sr-only">Basic Information</h2>
+                            <div class="content">
+                                <ul class="list-unstyled">
+                                    <li><i class="fa fa-map-marker"></i><span class="sr-only">Location:</span> Pune, Maharashtra, India - 411051</li>
+                                    <li><i class="fa fa-envelope-o"></i><span class="sr-only">Email:</span><a href="mailto:krushnathube19@gmail.com" title="Mail to krushnathube19@gmail.com">krushnathube19@gmail.com</a></a></li>
+                                    <li><i class="fa fa-phone" ></i><span class="sr-only">Phone:</span> +91 7387476746</li>                           
+                                    <li><i class="fa fa-file-pdf-o"></i><span class="sr-only">Resume:</span><a href="https://docs.google.com/document/d/1G3W1wmvNvhZhhnpEkss6RfPYEvtWG8FN/edit?usp=sharing&ouid=105875724581879092661&rtpof=true&sd=true" title="Download CV" target="_blank">Download CV</a></li>
+                                    <li><i class="fa fa-address-card fa-1"></i><span class="sr-only">Contact-us:</span><a href="https://forms.gle/Pmu53AnJGD22V7hh8" target="_blank" title="Contact Krushna Thube">Contact us</a></li>
+                                </ul>
+                            </div>
+                            <!--//content-->
+                        </div>
+                        <!--//section-inner-->
+                    </aside>
+                    <!--//aside-->
+                    <aside class="skills aside section">
+                        <div class="section-inner">
+                            <h2 class="heading">Skills</h2>
+                            <div class="content">
+                                <div class="skillset">
+                                    
+                                    <!--//item-->
+                                    <div class="item">
+                                        <h3 class="level-title">Javascript<span class="level-label">Pro</span></h3>
+                                        <div class="level-bar">
+                                            <div class="level-bar-inner" data-level="85%">
+                                            </div>
+                                        </div>
+                                        <!--//level-bar-->
+                                    </div>
+                                    <!--//item-->
+                                    <div class="item">
+                                        <h3 class="level-title">Typescript<span class="level-label">Pro</span></h3>
+                                        <div class="level-bar">
+                                            <div class="level-bar-inner" data-level="70%">
+                                            </div>
+                                        </div>
+                                        <!--//level-bar-->
+                                    </div>
+                                    <!--//item-->
+                                    <div class="item">
+                                        <h3 class="level-title">Node JS<span class="level-label">Pro</span></h3>
+                                        <div class="level-bar">
+                                            <div class="level-bar-inner" data-level="80%">
+                                            </div>
+                                        </div>
+                                        <!--//level-bar-->
+                                    </div>
+                                    <!--//item-->
+                                    <div class="item">
+                                        <h3 class="level-title">MongoDB<span class="level-label">Pro</span></h3>
+                                        <div class="level-bar">
+                                            <div class="level-bar-inner" data-level="80%">
+                                            </div>
+                                        </div>
+                                        <!--//level-bar-->
+                                    </div>
+                                    <!--//item-->
+                                    <div class="item">
+                                        <h3 class="level-title">Serverless<span class="level-label">Expert</span></h3>
+                                        <div class="level-bar">
+                                            <div class="level-bar-inner" data-level="60%">
+                                            </div>
+                                        </div>
+                                        <!--//level-bar-->
+                                    </div>
+                                    <!--//item-->
+                                    <div class="item">
+                                        <h3 class="level-title">AWS (Lambda, API Gateway, Dynamodb, S3 etc.) <span class="level-label">Expert</span></h3>
+                                        <div class="level-bar">
+                                            <div class="level-bar-inner" data-level="70%">
+                                            </div>
+                                        </div>
+                                        <!--//level-bar-->
+                                    </div>
+                                    <!--//item-->
+                                    <div class="item">
+                                        <h3 class="level-title">React.js <span class="level-label">Intermediate</span></h3>
+                                        <div class="level-bar">
+                                            <div class="level-bar-inner" data-level="50%">
+                                            </div>
+                                        </div>
+                                        <!--//level-bar-->
+                                    </div>
+                                    <!--//item-->
+                                    <div class="item">
+                                        <h3 class="level-title">HTML &amp; CSS<span class="level-label">Intermediate</span></h3>
+                                        <div class="level-bar">
+                                            <div class="level-bar-inner" data-level="60%">
+                                            </div>
+                                        </div>
+                                        <!--//level-bar-->
+                                    </div>
+                                    <div class="item">
+                                        <h3 class="level-title">Angular &amp; Ionic 4<span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="You can use the tooltip to add more info...">Intermediate</span></h3>
+                                        <div class="level-bar">
+                                            <div class="level-bar-inner" data-level="50%">
+                                            </div>
+                                        </div>
+                                        <!--//level-bar-->
+                                    </div>
+                                    <!--//item-->
+                                    <p><a class="more-link" href="https://www.linkedin.com/in/krushna-thube/" target="_blank"><i class="fa fa-external-link" title="View linkedin profile of Krushna Thube"></i> More on Linkedin</a></p>
+                                </div>
+                            </div>
+                            <!--//content-->
+                        </div>
+                        <!--//section-inner-->
+                    </aside><!--//section-->
+                    <aside class="education aside section">
+                        <div class="section-inner">
+                            <h2 class="heading">Certifications</h2>
+                            <div class="content">
+                                <div class="item">
+                                    <h4 class="title"></i> AWS Certified Developer Associate (12/2024)</h4>
+                                </div>
+                                <div class="item">
+                                    <h4 class="title"></i> Completed - The Web Developer Bootcamp 2024 [Udemy]</h4>
+                                </div>
+                                <!--//item-->
+                            </div>
+                            <!--//content-->
+                        </div>
+                        <!--//section-inner-->
+                    </aside>
+                    <!--//section-->
+                    <aside class="education aside section">
+                        <div class="section-inner">
+                            <h2 class="heading">Education</h2>
+                            <div class="content">
+                                <div class="item">
+                                    <h3 class="title"><i class="fa fa-graduation-cap"></i> Master of Computer Science</h3>
+                                    <h4 class="university">Savitribai Phule Pune University, Pune, Maharashtra<span class="year">(2012-2014)</span></h4>
+                                </div>
+                                <!--//item-->
+                                <div class="item">
+                                    <h3 class="title"><i class="fa fa-graduation-cap"></i> Bachelor of Computer Science </h3>
+                                    <h4 class="university">Savitribai Phule Pune University, Pune, Maharashtra<span class="year">(2009-2012)</span></h4>
+                                </div>
+                                <!--//item-->
+                            </div>
+                            <!--//content-->
+                        </div>
+                        <!--//section-inner-->
+                    </aside>
+                    <!--//section-->
+                    <aside class="languages aside section">
+                        <div class="section-inner">
+                            <h2 class="heading">Languages</h2>
+                            <div class="content">
+                                <ul class="list-unstyled">
+                                    <li class="item">
+                                        <span class="title"><strong>English:</strong></span>
+                                        <span class="level">Professional <br class="visible-xs"/><i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"> <i class="fa fa-star"></i> <i class="fa fa-star-half"></i> </i> </span>
+                                    </li>
+                                    <!--//item-->
+                                    <li class="item">
+                                        <span class="title"><strong>Hindi:</strong></span>
+                                        <span class="level">Professional <br class="visible-sm visible-xs"/><i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-half"></i></span>
+                                    </li>
+                                    <!--//item-->
+                                    <li class="item">
+                                        <span class="title"><strong>Marathi:</strong></span>
+                                        <span class="level">Native Speaker <br class="visible-sm visible-xs"/><i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i></span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <!--//content-->
+                        </div>
+                        <!--//section-inner-->
+                    </aside>
+                    <!--//section-->
+                    <!--//section-->
+                    <aside class="list music aside section">
+                        <div class="section-inner">
+                            <h2 class="heading">Intrests & Hobbies</h2>
+                            <div class="content">
+                                <ul class="list-unstyled">
+                                    <li><i class="fa fa-gamepad"></i> <a href="#" target="_blank"></a>Playing Computer Games</a></li>
+                                    <li><i class="fa fa-headphones"></i> <a href="#" target="_blank"></a>Listening Music</li>
+                                    <li><i class="fa fa-globe"></i> <a href="#" target="_blank"></a>Web/ChatGPT Surfing</li>
+                                </ul>
+                            </div>
+                            <!--//content-->
+                        </div>
+                        <!--//section-inner-->
+                    </aside>
+                    <!--//section-->
+                </div>
+                <!--//secondary-->
+            </div>
+            <!--//row-->
+        </div>
+        <!--//masonry-->
+        <!-- ******FOOTER****** -->
+        <footer class="footer">
+            <div class="container text-center">
+                <small class="copyright">Designed with <i class="fa fa-heart"></i> by Krushna Thube</small>
+            </div>
+            <!--//container-->
+        </footer>
+        <!--//footer-->
+        <!-- Javascript -->
+        <script type="text/javascript" src="portfolio/assets/plugins/jquery-1.11.3.min.js"></script>
+        <script type="text/javascript" src="portfolio/assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="portfolio/assets/plugins/jquery-rss/dist/jquery.rss.min.js"></script>
+        <!-- github calendar plugin -->
+        <script type="text/javascript" src="ajax/libs/es6-promise/3-0-2/es6-promise.min.js"></script>
+        <script type="text/javascript" src="ajax/libs/fetch/0-10-1/fetch.min.js"></script>
+        <!-- github activity plugin -->
+        <script type="text/javascript" src="ajax/libs/mustache-js/0-7-2/mustache.min.js"></script>
+        <script type="text/javascript" src="portfolio/assets/plugins/github-activity/src/github-activity.js"></script>
+        <!-- custom js -->
+        <script type="text/javascript" src="portfolio/assets/js/main.js"></script>
+</html>
